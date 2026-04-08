@@ -1,8 +1,9 @@
 # PostgreSQL Index Performance Lab
+A hands-on performance lab demonstrating how PostgreSQL actually executes queries, when indexes help, when they hurt, and how the query planner makes cost-based decisions.
+Key Insight: Indexes are not always faster. PostgreSQL chooses execution plans based on cost (I/O, selectivity, and data distribution).
 
 Systematic benchmark of five index types on 100,000 rows. Demonstrates when indexes help, when they hurt, and why query planners make cost-based decisions.
 
-> **Junior-level differentiator:** Most candidates know `CREATE INDEX`. This repo proves you understand *when* to use each type and *why* the planner ignores them.
 
 ---
 
